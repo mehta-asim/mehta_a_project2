@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'Automobile Contest Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('../fonts/Automobile Contest Regular'), url('Automobile Contest.woff') format('woff');
+    }
+
+@font-face {
+    font-family: 'bebasregular';
+    src: url('bebas-regular-webfont.woff2') format('woff2'),
+         url('bebas-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.hidden
+{
+	display: none;
+}
+
+#container
+{
+	width: 860px;
+	background-color: #fff;
+	margin: 0 auto;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+
+}
+
+body
+{
+	background-image: url('../images/shot_glasses.jpg');
+	background-repeat: no-repeat;
+}
+
+h1
+{
+	font-family: 'Automobile Contest Regular';
+	text-shadow: 0px 7px 0px #f8a233;
+	font-size: 817px;
+	padding-left: 197px;
+	position: relative;
+	top: -155px;
+	max-height: 100%;
+	max-width: 100%;
+	color: #000;
+}
+
+
+
+h2
+{
+	font-family: 'Automobile Contest Regular';
+	font-size: 290.8px;
+	text-shadow: 0px 5px 0px #000000;
+	color: #f8a233;
+	top: -80px;
+	position: relative;
+}
+
+#conclusion h2
+{
+	font-family: 'Automobile Contest Regular';
+	text-shadow: 0px 7px 0px #f8a233;
+	font-size: 480px;
+	padding-left: 97px;
+	position: relative;
+	top: -155px;
+	max-height: 100%;
+	max-width: 100%;
+	color: #000;
+}
+
+#conclusion p
+{
+	position: relative;
+  max-height: 100%;
+	max-width: 100%;
+	top: -100px;
+
+}
+p
+{
+  font-size: 32px;
+  font-family: "Bebas";
+  color: rgb(255, 255, 255);
+  line-height: 1;
+  text-align: left;
+  text-shadow: 1.638px 1.147px 3.76px #f8a233;
+  position: relative;
+  max-height: 100%;
+	max-width: 100%;
+	top: -100px;
+
+}
+
+
+
+p:first-letter
+{
+	font-family: "Bebas";
+	font-size: 50px;
+}
+
+
+#hero
+{
+	width: 861px;
+	height: 465px;
+	margin-bottom: 30px;
+	background-image: url('../images/hero.png');
+}
+
+#product1
+{
+	width: 861px;
+	height: 489px;
+	background-image: url('../images/product_1.png');
+	margin-bottom: 30px;
+}
+
+#product2
+{
+	width: 861px;
+	height: 489px;
+	background-image: url('../images/product_2.png');
+	margin-bottom: 30px;
+}
+
+#product3
+{
+	width: 861px;
+	height: 489px;
+	background-image: url('../images/product_3.png');
+	margin-bottom: 30px;
+}
+
+#conclusion
+{
+	width: 861px;
+	height: 434px;
+	background-image: url('../images/conclusion.png');
+}
